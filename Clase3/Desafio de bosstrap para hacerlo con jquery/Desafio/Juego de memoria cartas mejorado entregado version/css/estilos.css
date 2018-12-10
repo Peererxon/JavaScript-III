@@ -1,0 +1,131 @@
+
+*{
+	font-size: 30px;
+	color: white;
+}
+.fondo_carta{
+	background-image:url("../img/Fondo_cartas.jpg" );
+	background-repeat: no-repeat;
+	background-size:contain ;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.seleccionada{
+	background-image:url("../img/Fondo_total.png" );
+
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.Carta1{
+	background-image:url("../img/Carta1.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+		background-size:contain ;
+	/*background-size: 300px 100px;*/
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	padding: 10px;
+	border: 2px solid red;
+	display: inline-block;
+}
+.Carta2{
+	background-image:url("../img/Carta2.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.Carta3{
+	background-image:url("../img/Carta3.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.Carta4{
+	background-image:url("../img/Carta4.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.Carta5{
+	background-image:url("../img/Carta5.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.Carta6{
+	background-image:url("../img/Carta6.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.Carta7{
+	background-image:url("../img/Carta7.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.Carta8{
+	background-image:url("../img/Carta8.png" );
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:50px;
+	height: 160px;
+	width: 11.5%;
+	border: 1px solid red;
+	display: inline-block;
+}
+.fondo_barra{
+	background: purple;
+	margin-top:50px;
+	padding: 50px;
+	text-align: center;
+}
+.fondo_letras_Central{
+	background: red;
+	margin-top:50px;
+	padding: 50px;
+	text-align: center;
+}
+.fondo_total{
+	background-image:url("../img/Fondo_total.png" );
+	margin-top:50px;
+	padding: 50px;
+	text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width: 990px){
+		#azul{ 
+			display: none;
+		}
+	}

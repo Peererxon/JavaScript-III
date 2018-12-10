@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>desafio2 jsII</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+    
+</head>
+<body>
+<body>
+	<div id="formulario">
+        <h1 style="color: red">Registrar alumno</h1>
+        <form id="formulario" name="registro" >  
+            Nombre :<br>
+            <input type="text" name="nombre"  placeholder="ingrese su nombre" id="nombre"> <span id="alertanombre" style="visibility: hidden;">poner mensaje de ERROR</span><br>
+
+            Cedula <br> 
+            <input type="text" name="cedula" placeholder="EJ:28976432" id="cedula" /> <br>
+
+            Nota <br> 
+            <input type="text" name="nota" placeholder="EJ:90" id="nota" />
+            <span id="alertadesafio1" style="visibility: hidden;"> La nota debe de estar entre 0 y 100</span>
+
+            <br>
+            
+            <input type="button" class="boton" value="Procesar" name="procesarboton"/> 
+            </form>
+    </div>
+
+    
+    <div id="alumnos">
+        <h2 style="color: red" id="resultados"></h1>
+        <div id="listado">
+            
+        </div>
+    </div>
+
+    <p>&copy;Anderson Gil</p>
+</body>
+    <script src="lib_validaciones.js"></script>
+    <script src="Desafio1JSIII.js"></script>
+</html>
+</body>
+</html>

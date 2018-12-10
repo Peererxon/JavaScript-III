@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafío 2 Javascript 3</title>
+</head>
+
+<body>
+        <div class="mensaje2"></div>
+        <form id="formu">
+                <div class="mensaje"></div>
+            <label>Código del producto</label>
+            <div id="error-codigo">
+                <input type="text" id="codigo" maxlength="6">
+            </div>
+            <label>Nombre</label>
+            <div id="error-nombre">
+                <input type="text" id="nombre">
+            </div>
+            <label>Existencia</label>
+            <div id="error-existencia">
+                <input type="text" id="existencia">
+            </div>
+            <label>Precio</label>
+            <div id="error-precio">
+                <input type="text" id="precio"> <br>
+            </div>
+            <div id="error-categoria">
+                <select name="" id="categoria">
+                    <option value="" selected="selected">Categoría</option>
+                    <option value="Alimentos">Alimentos</option>
+                    <option value="Ropa">Ropa</option>
+                    <option value="Electrónicos">Electrónicos</option>
+                    <option value="Cocina">Cocina</option>
+                </select> <br> <br>
+            </div>
+            <input type="checkbox" name="" id="check">
+            <p id="p"> Excento iva(si da clic no se le aplicara un iva al producto)</p>
+            <input type="button" id="enviar" value="Registrar">
+        </form>
+        <input type="button" value="agregar otro producto" id="oculto">
+        <div id="detalles">
+
+        </div>
+</body>
+<script src="lib_validaciones.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="jquery.js"></script>
+
+</html>

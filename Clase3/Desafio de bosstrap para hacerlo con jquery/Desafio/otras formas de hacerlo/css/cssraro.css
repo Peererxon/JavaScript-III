@@ -1,0 +1,29 @@
+#cardList {
+
+  position: absolute;
+  width: 400px;
+
+}
+
+div[cl^="card"] {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  display: inline-block;
+}
+
+div.cardBlack {
+  background-color: #000;
+}
+
+div.cardRed {
+  background-color: #f00;
+}
+
+div.cardBlue {
+  background-color: #00f;
+}
+
+div.cardGreen {
+  background-color: #0f0;
+}

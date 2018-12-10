@@ -1,0 +1,27 @@
+#formu > input{
+    display:block;
+}
+#formu{
+    position: relative;
+    left:100px;
+}
+
+#p{
+    position: relative;
+    left:20px;
+    bottom:30px;
+}
+body{
+    background-color:transparent;
+}
+.error{
+    background:yellow;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:40px;
+    width:260px;
+    background-image: url("../hola.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
